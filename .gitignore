@@ -1,0 +1,20 @@
+#python virtual environment
+.venv/
+__pychache__/
+*.pyc
+
+#secerts
+.env
+.env.*
+*.key
+password.txt
+
+
+#network captures
+
+*.pcap
+*.pcapng
+
+#local datasets and databases 
+data/raw/
+.*db
