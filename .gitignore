@@ -1,6 +1,6 @@
 #python virtual environment
 .venv/
-__pychache__/
+__pycache__/
 *.pyc
 
 #secerts
@@ -17,4 +17,15 @@ password.txt
 
 #local datasets and databases 
 data/raw/
-.*db
+*.db
+
+# Python build artifacts
+*.egg-info/
+build/
+dist/
+
+# Generated metadata, private temporary output, and local secrets
+*.jsonl
+*.tmp
+data/metadata/
+*.pem

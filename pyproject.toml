@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentinelforge-ai"
+version = "0.1.0"
+description = "Offline, metadata-only PCAP intelligence"
+requires-python = ">=3.12"
+dependencies = ["dpkt==1.9.8"]
+
+[project.scripts]
+sentinelforge = "sentinelforge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
